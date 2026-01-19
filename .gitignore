@@ -1,0 +1,23 @@
+HELP.md
+target/
+# This fixes the "ghost" folder issue we had earlier
+\${project.build.directory}/
+
+# Ignore Maven wrapper binary but keep the scripts
+.mvn/wrapper/maven-wrapper.jar
+
+# Mac system junk
+.DS_Store
+
+### IDEs ###
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+.settings/
+.classpath
+.project
+
+# Log files
+*.log
